@@ -13,7 +13,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ $book->titulo }}</h5>
                         <p class="card-text"><strong>Autor:</strong> {{ $book->autor }}</p>
-                        <p class="card-text"><strong>Editorial:</strong> {{ $book->editorial }}</p>
+                        <p class="card-text"><strong>Genero:</strong> {{ $book->genero }}</p>
                         <p class="card-text"><strong>Fecha de publicación:</strong> {{ $book->ano_de_publicacion }}</p>
                     </div>
                 </div>

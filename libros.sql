@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-11-2023 a las 13:27:23
+-- Tiempo de generación: 02-11-2023 a las 21:43:50
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -156,7 +156,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'Lautaro', 'lautaro0611@gmail.com', NULL, '$2y$10$hMklE.7.LmUGHgtfe07uzudRPd.oxv.Cl3odGcC7PB3tLYwhqw0gi', NULL, '2023-11-02 04:25:27', '2023-11-02 04:25:27'),
-(2, 'Matias', 'matias@test.com', NULL, '$2y$10$CCzOL6y2rdTzTmGs/Ag6nuVCxWKNIjWMLq4Jo5VytShU8T0O.YOuu', NULL, '2023-11-02 04:34:21', '2023-11-02 04:34:21');
+(2, 'Matias', 'matias@test.com', NULL, '$2y$10$CCzOL6y2rdTzTmGs/Ag6nuVCxWKNIjWMLq4Jo5VytShU8T0O.YOuu', NULL, '2023-11-02 04:34:21', '2023-11-02 04:34:21'),
+(3, 'admin', 'admin@admin.com', NULL, '$2y$10$21gCQEgFoBYLpX3kp4yageYdrskC8f8yVOqAD0slP3VFIY4Jguwke', NULL, '2023-11-02 23:38:16', '2023-11-02 23:38:16');
 
 --
 -- Índices para tablas volcadas
@@ -246,7 +247,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
